@@ -46,22 +46,40 @@ window.onload = () => {
     let last_t = 0, t, degree;
     [
         {
-            url: './images/asset/3iheZrX.png',
-            name: '아벨 그린필드',
-            age: '13세',
+            url: '',
+            name: '--',
+            age: '--세',
             gender: 'M',
-            description: '마법 아카데미 누르에 재학중인 학생이다. 스승은 이 이며 현재 3년째 수학중이다. 그린필드 부부의 아들로 태어난 아벨은 원래는 낮에는 목장에서 일하고 치즈커드와 꿀을 곁들여 먹는 평범한 사람이었겠으나 아카데미에 들어오며 그의 삶은 전환을 맞이하게 되었다.'
+            description: '--'
         },
         {
-            url: './images/asset/9wNLAdS.jpg',
-            name: '네므 (베타루트)',
-            age: '17세',
-            gender: 'F',
-            description: '가설과 입증의 히포세, 이단과 구전의 그리모어, 공포와 경외의 포보스가 합작으로 진행한 인간의 "악마화" 실험에서 최초로 성공한 개체 이자 부산물. 그리고 새롭게 그녀의 자리를 이어받은, 자각과 각성의 악마, "꿈"의 개념을 담당하는 루시드라고도 말할 수 있겠다.'
+            url: '',
+            name: '--',
+            age: '--세',
+            gender: 'M',
+            description: '--'
         },
-        {},
-        {},
-        {}
+        {
+            url: '',
+            name: '--',
+            age: '--세',
+            gender: 'M',
+            description: '--'
+        },
+        {
+            url: '',
+            name: '--',
+            age: '--세',
+            gender: 'M',
+            description: '--'
+        },
+        {
+            url: '',
+            name: '--',
+            age: '--세',
+            gender: 'M',
+            description: '--'
+        },
     ].forEach(info => {
         let main__section__infectee = (()=>{
             let el = document.createElement('div');
